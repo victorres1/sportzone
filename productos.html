@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - SportZone</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00c3ff;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      color: #00c3ff;
+      margin-bottom: 10px;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛒 Catálogo de Productos</h1>
+    <p>Explora todos los artículos disponibles en SportZone</p>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <img src="balon de futbol.jpg" alt="Balón de fútbol">
+      <h3>Balón de Fútbol</h3>
+      <p>Precio: $120.000</p>
+    </div>
+    <div class="card">
+      <img src="tenis deportivos.webp" alt="Zapatillas deportivas">
+      <h3>Zapatillas Running</h3>
+      <p>Precio: $250.000</p>
+    </div>
+    <div class="card">
+      <img src="guantes de box.jpg" alt="Guantes de boxeo">
+      <h3>Guantes de Boxeo</h3>
+      <p>Precio: $180.000</p>
+    </div>
+    <div class="card">
+      <img src="camiseta dep.jpg" alt="Camiseta deportiva">
+      <h3>Camiseta Deportiva</h3>
+      <p>Precio: $90.000</p>
+    </div>
+    <div class="card">
+      <img src="tenis raqueta.avif" alt="Raqueta de tenis">
+      <h3>Raqueta de Tenis</h3>
+      <p>Precio: $300.000</p>
+    </div>
+    <div class="card">
+      <img src="basket.webp" alt="Balón de baloncesto">
+      <h3>Balón de Baloncesto</h3>
+      <p>Precio: $150.000</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>📱 Contacto: 3165653287 | 📧 vatorres@iegabo.edu.co</p>
+    <p>© 2025 SportZone - Victor Torres</p>
+  </footer>
+</body>
+</html>
